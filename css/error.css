@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    opacity: 50%;
+}
+
+.logo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    font-size: 40px;
+}
+
+.logo p {
+    background-color: transparent;
+    font-family: "K2D", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.logo-img {
+    width: 240px;
+    height: 120px;
+    background-color: transparent;
+}
+
+.content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: transparent;
+}
+
+.content h1 {
+    font-size: 300px;
+    font-family: "Intel One Mono", monospace;
+    background-color: transparent;
+    letter-spacing: 0.5vw;
+}
+
+.content p {
+    background-color: transparent;
+    font-family: "Intel One Mono", monospace;
+}
+
+.back {
+    padding: 20px;
+    width: 20%;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    border: 1px solid #4d4d4d60;
+    background-color: #fff;
+    color: #000;
+    font-family: "Intel One Mono", monospace;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+
+.back:hover {
+    background-color: #000;
+    border: 1px solid #4d4d4d60;
+    color: #fff;
+    transition: 0.7s;
+}
